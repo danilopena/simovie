@@ -63,17 +63,16 @@ final class MoviesListController: UIViewController {
     func addFooterView() {
         isLoadingMoreMovies = true
         let view = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 80.0))
-        view.backgroundColor = UIColor.white
+        view.backgroundColor = UIColor.black
         
-        let pagingSpinner = UIActivityIndicatorView(style: .gray)
+        let pagingSpinner = UIActivityIndicatorView(style: .whiteLarge)
         pagingSpinner.startAnimating()
-        pagingSpinner.color = UIColor.gray
+        pagingSpinner.color = UIColor.white
         pagingSpinner.hidesWhenStopped = true
         pagingSpinner.frame = CGRect(x: view.frame.width/2, y: 20, width: 0, height: 30)
         view.addSubview(pagingSpinner)
         tableViewMovies?.tableFooterView = view
         numberPage += 1
-        print(numberPage)
         movieViewModel?.getMovies(page: "\(numberPage)")
     }
     
