@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  ios-view-code
+
+  Created by Danilo Pena on 20/06/20.
+  Copyright © 2020 Danilo Pena. All rights reserved.
+*/
+
+// MovieListController
+"TITLE_MOVIE_CONTROLLER" = "Lista de filmes";
+"VOTE_AVERAGE_ORIENTATION" = "Avaliações";
+"ATTENTION" = "Atenção";
+"TOP_RATED_ORIENTATION" = "Top 5 melhores filmes";
+"WITHOUT_DURATION" = "Sem duração";
+
+//Network Layer
+"GENERIC_ERROR" = "Ops! Something went wrong. Please try again later.";
+"URL_PROBLEM" = "Unable to create URL from given string";
+"ENCODE_ERROR" = "Cannot encode given object into Data";
