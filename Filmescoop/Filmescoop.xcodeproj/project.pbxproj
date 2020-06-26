@@ -41,7 +41,6 @@
 		71E6DDCF24A3B687000E0B5E /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 71E6DDCE24A3B687000E0B5E /* RealmSwift */; };
 		71E6DDD124A3B687000E0B5E /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 71E6DDD024A3B687000E0B5E /* Realm */; };
 		71E6DDD324A3B755000E0B5E /* MovieRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E6DDD224A3B755000E0B5E /* MovieRealm.swift */; };
-		71E6DDD624A3C968000E0B5E /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E6DDD524A3C968000E0B5E /* Reachability.swift */; };
 		71E6DDDA24A3E1B0000E0B5E /* StoryboardIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E6DDD924A3E1AF000E0B5E /* StoryboardIdentifier.swift */; };
 		71E6DDDC24A43F9D000E0B5E /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E6DDDB24A43F9C000E0B5E /* UIImageView+Extension.swift */; };
 /* End PBXBuildFile section */
@@ -92,7 +91,6 @@
 		71E6DDC824A3B074000E0B5E /* MovieDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModelTests.swift; sourceTree = "<group>"; };
 		71E6DDCB24A3B573000E0B5E /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		71E6DDD224A3B755000E0B5E /* MovieRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRealm.swift; sourceTree = "<group>"; };
-		71E6DDD524A3C968000E0B5E /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		71E6DDD924A3E1AF000E0B5E /* StoryboardIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifier.swift; sourceTree = "<group>"; };
 		71E6DDDB24A43F9C000E0B5E /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -189,7 +187,6 @@
 		719971A7249CF6E2004FA71A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				71E6DDD424A3C950000E0B5E /* Dependencies */,
 				719971A8249CF6E2004FA71A /* Localizable.strings */,
 				719971A9249CF6E2004FA71A /* Color.xcassets */,
 				719971AA249CF6E2004FA71A /* Colors.swift */,
@@ -272,14 +269,6 @@
 				71E6DDD224A3B755000E0B5E /* MovieRealm.swift */,
 			);
 			path = Realm;
-			sourceTree = "<group>";
-		};
-		71E6DDD424A3C950000E0B5E /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				71E6DDD524A3C968000E0B5E /* Reachability.swift */,
-			);
-			path = Dependencies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,7 +399,6 @@
 				71E6DDD324A3B755000E0B5E /* MovieRealm.swift in Sources */,
 				719971B1249CF6FD004FA71A /* NetworkLayer.swift in Sources */,
 				719B9964249FD68200F927C9 /* Genre.swift in Sources */,
-				71E6DDD624A3C968000E0B5E /* Reachability.swift in Sources */,
 				71E6DDCC24A3B573000E0B5E /* RealmManager.swift in Sources */,
 				719971B2249CF6FD004FA71A /* State.swift in Sources */,
 				719971B7249CF82E004FA71A /* SceneDelegate.swift in Sources */,
