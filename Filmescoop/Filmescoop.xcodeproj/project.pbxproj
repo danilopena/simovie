@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7102D3E724A67C31000842DD /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102D3E624A67C31000842DD /* Reachability.swift */; };
 		718526A724A2DEF20022DAB9 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718526A624A2DEF20022DAB9 /* UITableView+Extension.swift */; };
 		718526AA24A2E21D0022DAB9 /* MovieViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718526A924A2E21D0022DAB9 /* MovieViewModelTests.swift */; };
 		71997180249CF5ED004FA71A /* MoviesListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7199717F249CF5ED004FA71A /* MoviesListController.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7102D3E624A67C31000842DD /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		718526A624A2DEF20022DAB9 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		718526A924A2E21D0022DAB9 /* MovieViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModelTests.swift; sourceTree = "<group>"; };
 		71997178249CF5ED004FA71A /* SiMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,6 +189,7 @@
 		719971A7249CF6E2004FA71A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				7102D3E624A67C31000842DD /* Reachability.swift */,
 				719971A8249CF6E2004FA71A /* Localizable.strings */,
 				719971A9249CF6E2004FA71A /* Color.xcassets */,
 				719971AA249CF6E2004FA71A /* Colors.swift */,
@@ -395,6 +398,7 @@
 				719971A5249CF6C0004FA71A /* UIViewController+Extensions.swift in Sources */,
 				719971BE249CFF18004FA71A /* MovieWrapper.swift in Sources */,
 				71A6E962249E6FA000A0FB6D /* MovieTableCell.swift in Sources */,
+				7102D3E724A67C31000842DD /* Reachability.swift in Sources */,
 				719971AD249CF6E2004FA71A /* Colors.swift in Sources */,
 				71E6DDD324A3B755000E0B5E /* MovieRealm.swift in Sources */,
 				719971B1249CF6FD004FA71A /* NetworkLayer.swift in Sources */,
