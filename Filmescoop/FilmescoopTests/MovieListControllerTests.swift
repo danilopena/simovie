@@ -45,7 +45,7 @@ extension MovieListControllerTests: MovieViewModelDelegate {
         case .success:
             XCTAssertNotNil(controller.movieViewModel.movies)
             XCTAssertTrue(controller.movieViewModel.movies?.count ?? 0 > 0)
-        case .failed( _):
+        case .failed(let error):
             break
         }
     }
